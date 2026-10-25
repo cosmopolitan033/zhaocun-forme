@@ -1,0 +1,19 @@
+{
+  "provider": "Netlify",
+  "project_id": "d6799b2d-c5c5-4b5f-ab34-e9845e132c8e",
+  "deploy_id": "6ade47d1834a5d99cd32568a",
+  "initial_project_slug": "stalwart-mousse-e69698",
+  "project_slug": "zhaocun-forme",
+  "url": "https://zhaocun-forme.netlify.app",
+  "repository": "https://github.com/cosmopolitan033/zhaocun-forme",
+  "build_command": "npm run build",
+  "publish_directory": "dist",
+  "method": "manual zip upload",
+  "archive_sha256": "346d5b8506ff67e0d6c5fd482880c24cef47d5cd13c4abd8922006e7640d0178",
+  "visibility": "public",
+  "verified_http_status": 200,
+  "verified_bundle_assets": [
+    "/assets/index-BXDT9QbF.js",
+    "/assets/index-B63a6ZP6.css"
+  ]
+}
