@@ -3,7 +3,7 @@ export const content = {
   author: 'zhaocun', title: 'forme', headline: ['Beyond', 'form.'],
   intro: 'An exploration of matter, movement, and the space in between.',
   note: 'I’m zhaocun. FORME is my digital sculpture garden — a personal experiment in turning mathematics into something you can almost touch. Nothing here is fixed. A different angle, a different light, a different possibility.',
-  source: 'https://github.com/cosmopolitan033/zhaocun-forme/tree/codex/immersive-review-v2',
+  source: 'https://github.com/cosmopolitan033/zhaocun-forme',
   portfolio: 'https://zhaocun-portfolio.netlify.app',
   studies: [
     {name:'Continuum',index:'01',label:'A LINE WITHOUT AN END',description:'One continuous gesture. Folding into itself, opening into something new.'},

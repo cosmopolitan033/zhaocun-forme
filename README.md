@@ -1,14 +1,14 @@
 # FORME — by zhaocun
 
-## Version 2 — review candidate
+## Version 2 — approved production experience
 
 A digital sculpture garden with three procedural forms, chrome/copper/porcelain surfaces, reflective studio lighting, a museum setting and direct drag rotation.
 
 Personal frontend design experiment. All sculptures and environments in this version are generated in code. No commercial clients, products or commissions are claimed.
 
-Production (previous approved version): https://zhaocun-forme.netlify.app
+Live: https://zhaocun-forme.netlify.app
 
-Review source: branch `codex/immersive-review-v2`. The review URL is recorded in `review-deployment.json` after upload. Production is unchanged pending review.
+The version 2 design was approved on 2026-10-27 and promoted to `main`. Production deployment details are recorded in `deployment.json`; `review-deployment.json` preserves the approved review snapshot.
 
 ## Run and edit
 
