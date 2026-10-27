@@ -4,7 +4,7 @@ export const content = {
   intro: 'An independent digital exhibition. Three sculptural works, nine material variations, and a perspective that belongs to you.',
   note: 'I’m zhaocun. FORME is my digital sculpture garden — a personal experiment in turning mathematics into something you can almost touch. Nothing here is fixed. A different angle, a different light, a different possibility.',
   source: 'https://github.com/cosmopolitan033/zhaocun-forme',
-  portfolio: 'https://zhaocun-portfolio.netlify.app',
+  portfolio: 'https://zhaocun.netlify.app',
   studies: [
     {name:'Continuum',index:'01',label:'A LINE WITHOUT AN END',description:'One continuous gesture. Folding into itself, opening into something new.'},
     {name:'Resonance',index:'02',label:'SEPARATE, YET INSEPARABLE',description:'Three orbits. One quiet conversation. A balance that only exists in motion.'},

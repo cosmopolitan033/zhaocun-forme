@@ -1,7 +1,7 @@
 {
   "provider": "Netlify",
   "project_id": "d6799b2d-c5c5-4b5f-ab34-e9845e132c8e",
-  "deploy_id": "6ae07a46903344958d4a356d",
+  "deploy_id": "6ae08b1dfa1b04f994343eb3",
   "initial_project_slug": "stalwart-mousse-e69698",
   "project_slug": "zhaocun-forme",
   "url": "https://zhaocun-forme.netlify.app",
@@ -9,17 +9,17 @@
   "build_command": "npm run build",
   "publish_directory": "dist",
   "method": "manual zip upload",
-  "archive_sha256": "ba16ae7ef70b32cb77d52d1e6d462d4c1d53ba92f8597062a4b236b1b2c64676",
+  "archive_sha256": "a3adb31ba861761285095ee1459936b7bb31a5eefeea85ea0c73e4b689b4513e",
   "visibility": "public",
   "verified_http_status": 200,
   "verified_bundle_assets": [
-    "/assets/index-DG_yZhjS.js",
+    "/assets/index-DfLUKkbH.js",
     "/assets/index-K4k25YAX.css"
   ],
   "verified_assets": [
     {
-      "path": "/assets/index-DG_yZhjS.js",
-      "sha256": "e9c8884daea972f67c41d3649f634608c325edbb21c240b77029b611b446c470"
+      "path": "/assets/index-DfLUKkbH.js",
+      "sha256": "0d77cccecf2cc469dc490b4507015d59472b73b6641d53034fba922a3425108c"
     },
     {
       "path": "/assets/index-K4k25YAX.css",
@@ -37,8 +37,11 @@
     "Saved copper Resonance persists after reload",
     "Opening saved variation restores matching sculpture and material",
     "Browser error log empty",
-    "Anonymous production JS and CSS exactly match local build"
+    "Anonymous production JS and CSS exactly match local build",
+    "Production bundle links to zhaocun.netlify.app without the old portfolio domain"
   ],
   "content_version": 3,
-  "published_date": "2026-10-27"
+  "published_date": "2026-10-27",
+  "portfolio_url": "https://zhaocun.netlify.app",
+  "domain_links_updated_date": "2026-10-27"
 }
