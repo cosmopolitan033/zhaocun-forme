@@ -1,7 +1,7 @@
 // Personal copy, links and exhibition titles are editable here.
 export const content = {
   author: 'zhaocun', title: 'forme', headline: ['Beyond', 'form.'],
-  intro: 'An exploration of matter, movement, and the space in between.',
+  intro: 'An independent digital exhibition. Three sculptural works, nine material variations, and a perspective that belongs to you.',
   note: 'I’m zhaocun. FORME is my digital sculpture garden — a personal experiment in turning mathematics into something you can almost touch. Nothing here is fixed. A different angle, a different light, a different possibility.',
   source: 'https://github.com/cosmopolitan033/zhaocun-forme',
   portfolio: 'https://zhaocun-portfolio.netlify.app',

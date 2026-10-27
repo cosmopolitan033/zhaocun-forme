@@ -1,7 +1,7 @@
 {
   "provider": "Netlify",
   "project_id": "d6799b2d-c5c5-4b5f-ab34-e9845e132c8e",
-  "deploy_id": "6ae07295f320d1b36ce9041a",
+  "deploy_id": "6ae07a46903344958d4a356d",
   "initial_project_slug": "stalwart-mousse-e69698",
   "project_slug": "zhaocun-forme",
   "url": "https://zhaocun-forme.netlify.app",
@@ -9,29 +9,36 @@
   "build_command": "npm run build",
   "publish_directory": "dist",
   "method": "manual zip upload",
-  "archive_sha256": "17a37f49a6a04a08e8ac57a5494563fbdf79e9c8b793a609f7aab328ce309a16",
+  "archive_sha256": "ba16ae7ef70b32cb77d52d1e6d462d4c1d53ba92f8597062a4b236b1b2c64676",
   "visibility": "public",
   "verified_http_status": 200,
   "verified_bundle_assets": [
-    "/assets/index-6LMUS0Fv.js",
-    "/assets/index-DBVWQUoY.css"
+    "/assets/index-DG_yZhjS.js",
+    "/assets/index-K4k25YAX.css"
   ],
   "verified_assets": [
     {
-      "path": "/assets/index-6LMUS0Fv.js",
-      "sha256": "047f381e55b31a5dadf22308f20a6beafd934a1beca6f14a4237d875890daf3b"
+      "path": "/assets/index-DG_yZhjS.js",
+      "sha256": "e9c8884daea972f67c41d3649f634608c325edbb21c240b77029b611b446c470"
     },
     {
-      "path": "/assets/index-DBVWQUoY.css",
-      "sha256": "f4f63d86c9e35a52e4baec3cfb8270a664dd797a5b57a1ed4495e008385cde7b"
+      "path": "/assets/index-K4k25YAX.css",
+      "sha256": "85e918f7efda80280a4e1b9b17505616186f049e044cd21140777c9299d5210b"
     }
   ],
   "approved_version": 2,
   "approval_date": "2026-10-27",
   "source_branch": "main",
   "checks": [
-    "production build passed",
-    "reviewed desktop/mobile and interactive controls",
-    "anonymous deployed JS and CSS exactly match production build"
-  ]
+    "Production build passed",
+    "git diff --check passed",
+    "Desktop catalogue and material library visually checked",
+    "Mobile 400px collection layout checked without overflow",
+    "Saved copper Resonance persists after reload",
+    "Opening saved variation restores matching sculpture and material",
+    "Browser error log empty",
+    "Anonymous production JS and CSS exactly match local build"
+  ],
+  "content_version": 3,
+  "published_date": "2026-10-27"
 }

@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "date": "2026-10-27",
+  "checks": [
+    "Production build passed",
+    "git diff --check passed",
+    "Desktop catalogue and material library visually checked",
+    "Mobile 400px collection layout checked without overflow",
+    "Saved copper Resonance persists after reload",
+    "Opening saved variation restores matching sculpture and material",
+    "Browser error log empty"
+  ],
+  "scope": "Independent project presentation; illustrative content clearly labelled"
+}
