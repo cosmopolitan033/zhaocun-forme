@@ -1,5 +1,13 @@
-// Text, archive entries and credits are centralized for easy editing.
-export const content={author:'zhaocun',title:'FORME',intro:'A collection of perspectives. An experiment in rhythm, space and the unexpected connections between them.',note:'I’m zhaocun, a developer exploring how a website can feel like an exhibition. FORME is my study of editorial design and motion: an invitation to slow down, look closer, and see familiar things differently.',source:'https://github.com/cosmopolitan033/zhaocun-forme',portfolio:'https://zhaocun-portfolio.netlify.app',studies:[
-{id:'01',title:'Silent contours',category:'Nature',image:'/images/10650274.jpg',alt:'Warm sand dunes with sweeping curves and long shadows',text:'Soft curves. Hard light. A study in the quiet tension between a surface and its shadow. The page borrows its rhythm from the landscape — slow, open and uninterrupted.',photographer:'Mostafa Ft.shots',photoUrl:'https://www.pexels.com/photo/sand-dunes-in-desert-10650274/'},
-{id:'02',title:'Order in concrete',category:'Structure',image:'/images/3318582.jpg',alt:'Monochrome geometric concrete building viewed from below',text:'Repetition creates rhythm. Break that repetition, and something catches the eye. This study pairs the precision of architecture with a fluid, changing composition.',photographer:'Steve Pancrate',photoUrl:'https://www.pexels.com/photo/grayscale-photography-of-concrete-building-3318582/'},
-{id:'03',title:'A pause between',category:'Nature',image:'/images/18166235.jpg',alt:'Expansive desert with a solitary tree and warm rolling dunes',text:'Negative space is an invitation. An almost-empty landscape makes room for a single detail, and gives that detail meaning. A reminder to leave room for discovery.',photographer:'Mo Eid',photoUrl:'https://www.pexels.com/photo/sand-dunes-on-desert-18166235/'}]};
+// Personal copy, links and exhibition titles are editable here.
+export const content = {
+  author: 'zhaocun', title: 'forme', headline: ['Beyond', 'form.'],
+  intro: 'An exploration of matter, movement, and the space in between.',
+  note: 'I’m zhaocun. FORME is my digital sculpture garden — a personal experiment in turning mathematics into something you can almost touch. Nothing here is fixed. A different angle, a different light, a different possibility.',
+  source: 'https://github.com/cosmopolitan033/zhaocun-forme/tree/codex/immersive-review-v2',
+  portfolio: 'https://zhaocun-portfolio.netlify.app',
+  studies: [
+    {name:'Continuum',index:'01',label:'A LINE WITHOUT AN END',description:'One continuous gesture. Folding into itself, opening into something new.'},
+    {name:'Resonance',index:'02',label:'SEPARATE, YET INSEPARABLE',description:'Three orbits. One quiet conversation. A balance that only exists in motion.'},
+    {name:'Bloom',index:'03',label:'ORDER BECOMES ORGANIC',description:'A precise rhythm, repeated until it becomes something that feels alive.'}
+  ]
+};

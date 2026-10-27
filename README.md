@@ -1,11 +1,16 @@
 # FORME — by zhaocun
 
-Personal creative development / frontend showcase. An interactive concept, not a commercial client commission.
+## Version 2 — review candidate
 
-Live: https://zhaocun-forme.netlify.app  
-Portfolio: https://zhaocun-portfolio.netlify.app
+A digital sculpture garden with three procedural forms, chrome/copper/porcelain surfaces, reflective studio lighting, a museum setting and direct drag rotation.
 
-## Run and build
+Personal frontend design experiment. All sculptures and environments in this version are generated in code. No commercial clients, products or commissions are claimed.
+
+Production (previous approved version): https://zhaocun-forme.netlify.app
+
+Review source: branch `codex/immersive-review-v2`. The review URL is recorded in `review-deployment.json` after upload. Production is unchanged pending review.
+
+## Run and edit
 
 ```sh
 npm ci
@@ -14,25 +19,17 @@ npm run build
 npm run preview
 ```
 
-Deploy the contents of `dist/` to Netlify. The included `netlify.toml` also supports Git-connected deployment with `npm run build` and `dist`.
+- `src/content.js`: names, text, links and scenes.
+- `src/main.js`: procedural 3D geometry, materials, animation and controls.
+- `src/style.css`: responsive layout and visual identity.
+- `public/credits.html`: attribution and license references.
 
-## Edit your content
+Deploy the contents of `dist/` to Netlify. `netlify.toml` declares the build command and output folder; it does not connect the Git repository automatically.
 
-- `src/content.js`: all main text, names, personal links and content data.
-- `src/style.css`: layout, typography, colors and mobile presentation.
-- `src/main.js`: interface behavior and rendering.
-- `public/`: locally hosted assets and credits.
+## Credits
 
-## Source and attribution
-
-Scroll-controlled Flip gallery adapted from Codrops ScrollBasedLayoutAnimations (MIT). New editorial layout, content, filters and study viewer. Photographs licensed through Pexels; ownership remains with the credited photographers.
-
-Original source: https://github.com/codrops/ScrollBasedLayoutAnimations
-
-All source credits are retained in `public/credits.html` and `public/licenses/`. The code license does not replace third-party photo, font or library licenses.
+Three.js and its included rendering utilities — MIT. Fonts — SIL Open Font License 1.1. Source notices are retained in `public/licenses/`. The earlier photographic gallery remains in Git history; its source and photo notices are retained.
 
 ## Accessibility
 
-Keyboard-accessible controls, visible focus states, mobile layouts and reduced-motion support. WebGL pages provide a fallback when graphics cannot initialize.
-
-Upstream reference commit: `ade47c56f8f2f756e7e6df8e578407690b2fb782`.
+Controls have keyboard focus states and accessible names. Escape leaves immersive mode. Reduced-motion preference starts the animation paused. A readable fallback is shown if WebGL cannot initialize. Mobile layouts preserve normal scrolling until immersive mode is explicitly entered.
